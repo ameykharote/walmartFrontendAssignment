@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import ModalComponent from '../pages/ModalComponent';
+import ModalComponent from '../dialog/ModalComponent';
 import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
 
@@ -28,7 +28,7 @@ const LandingContainer = () => {
 
     return (
         <>
-            <Stack gap={2} className="col-md-3 container">
+            <Stack gap={2} className="col-md-3 containerDuplicate">
                 {
                     userList && userList.map(element => {
                         return <>
