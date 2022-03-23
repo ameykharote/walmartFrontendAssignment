@@ -2,13 +2,19 @@
   text-align: center;
 }
 
-.container {
+.containerDuplicate {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: #dfdfdf;
-  margin: 120px auto;
+  margin: 100px auto;
   padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  background: #faa7a7;
   border-radius: 5px;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
