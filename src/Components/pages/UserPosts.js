@@ -65,10 +65,13 @@ const UserPosts = ({ userPosts }) => {
     })
       .then(response => {
         if (response.status === 200) {
+          let temp = userPostComment.filter(el => el.id !== singleElement.id)
+          setUserPostComment(temp);
           alert("Successfully Deleted");
         }
       })
   }
+
 
 
   return (
